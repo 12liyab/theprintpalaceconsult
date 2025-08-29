@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Print Palace Consult - Professional Printing Services in Ghana</title>
+    <meta name="description" content="Transform your ideas into reality with TPPC. Professional printing services including banners, booklets, cards, and custom solutions. If you can imagine it, we can print it!" />
+    <meta name="keywords" content="printing services, Ghana, Accra, banners, booklets, business cards, custom printing, lithographic, digital printing, outdoor advertising" />
+    <meta name="author" content="The Print Palace Consult" />
+    <link rel="icon" href="/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png" type="image/png">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#10b981">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="TPPC">
+    <link rel="apple-touch-icon" href="/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png">
+
+    <meta property="og:title" content="The Print Palace Consult - Professional Printing Services" />
+    <meta property="og:description" content="Transform your ideas into reality with professional printing services in Ghana. Get quotes, request samples, and explore our full range of print solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

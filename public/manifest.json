@@ -1,0 +1,32 @@
+{
+  "name": "The Print Palace Consult",
+  "short_name": "TPPC",
+  "description": "Professional printing services in Ghana. Transform your ideas into reality with custom print solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [
+    {
+      "src": "/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ]
+}
