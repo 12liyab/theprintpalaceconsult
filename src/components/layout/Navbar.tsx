@@ -25,7 +25,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png" 
+              src="/lovable-uploads/PrintPalaceFinalLogo.png" 
               alt="The Print Palace Consult Logo" 
               className="h-10 w-auto"
             />

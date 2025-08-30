@@ -6,7 +6,7 @@ const Clients = () => {
   const partners = [
     {
       name: "Ashesi University",
-      logo: "/lovable-uploads/ashesi.png",
+      logo: "/lovable-uploads/Ashesiuniversity.png",
       category: "Education",
       description: "Leading private university in Ghana focused on innovation and excellence in education.",
       services: ["Academic Materials", "Event Branding", "Digital Printing"]
@@ -31,6 +31,13 @@ const Clients = () => {
       category: "Human Capital",
       description: "A leading human capital solutions provider focused on talent development and organizational growth.",
       services: ["Talent Acquisition", "Training & Development", "HR Consulting"]
+    },
+    {
+      name: "Serene Insurance",
+      logo: "/lovable-uploads/SereneInsurance.png",
+      category: "Insurance",
+      description: "Trusted insurance provider offering comprehensive coverage solutions for individuals and businesses.",
+      services: ["Corporate Documentation", "Marketing Materials", "Policy Booklets"]
     }
   ];
 

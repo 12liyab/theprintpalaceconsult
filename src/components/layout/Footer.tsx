@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src="/lovable-uploads/5c20975a-b428-4aa0-9d78-93b4b9969e22.png" 
+                src="/lovable-uploads/PrintPalaceFinalLogo.png" 
                 alt="TPPC Logo" 
                 className="h-12 w-auto"
               />
