@@ -22,58 +22,9 @@ const Footer = () => {
             <p className="text-muted-foreground mb-4 max-w-md">
               "If you can imagine it, we can print it!" - Your trusted partner for all printing needs in Ghana and beyond.
             </p>
-            <p className="text-sm text-muted-foreground mb-4">
+            <p className="text-sm text-muted-foreground">
               Transforming the print industry in sub-Saharan Africa with the highest standard of quality and service.
             </p>
-            
-            {/* Social Media Links */}
-            <div className="flex space-x-4">
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
-              </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
-              </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
-              </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
-              </a>
-              <a 
-                href="https://wa.me/233244470246" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
-                aria-label="WhatsApp"
-              >
-                <MessageCircle className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -109,6 +60,58 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+
+            {/* Social Media Links */}
+            <div className="mt-6">
+              <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
+              <div className="flex space-x-3">
+                <a 
+                  href="https://facebook.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+                </a>
+                <a 
+                  href="https://instagram.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+                </a>
+                <a 
+                  href="https://twitter.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                  aria-label="Twitter"
+                >
+                  <Twitter className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+                </a>
+                <a 
+                  href="https://linkedin.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+                </a>
+                <a 
+                  href="https://wa.me/233244470246" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                  aria-label="WhatsApp"
+                >
+                  <MessageCircle className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
