@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { FileText, Image, CreditCard, Megaphone, Shirt, BookOpen, Gift, Shirt as TShirt } from 'lucide-react';
+import { FileText, Image, CreditCard, Megaphone, Shirt, BookOpen, Gift, Shirt as TShirt, Tag } from 'lucide-react';
 import printingProcess from '@/assets/printing-process.jpg';
 
 const Products = () => {
@@ -39,9 +39,9 @@ const categories = [
     },
     {
       letter: 'V',
-      icon: <TShirt className="h-8 w-8 text-primary icon-bounce" />,
+      icon: <Gift className="h-8 w-8 text-primary icon-bounce" />,
       title: 'Souvenirs',
-      products: ['Pens', 'Ceramic mugs', 'Notepads', 'Keyrings', 'Water Bottles', 'others to follow']
+      products: ['Pens', 'Ceramic mugs', 'Notepads', 'Keyrings', 'Water Bottles']
     },
     {
       letter: 'T',
@@ -51,7 +51,7 @@ const categories = [
     },
     {
       letter: 'S',
-      icon: <Shirt className="h-8 w-8 text-primary icon-bounce" />,
+      icon: <Tag className="h-8 w-8 text-primary icon-bounce" />,
       title: 'Stickers & Signage',
       products: ['Custom Stickers', 'Vehicle Decals', 'Shop Signage', 'Directional Signs', 'Safety Signs', 'Window Graphics']
     }
