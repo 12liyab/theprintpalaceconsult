@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Linkedin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -16,15 +16,64 @@ const Footer = () => {
               />
               <div>
                 <h3 className="text-lg font-bold text-primary">The Print Palace Consult</h3>
-                <p className="text-sm text-muted-foreground">Professional Printing Services</p>
+                <p className="text-sm text-muted-foreground">This is us making colour beautiful</p>
               </div>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               "If you can imagine it, we can print it!" - Your trusted partner for all printing needs in Ghana and beyond.
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-4">
               Transforming the print industry in sub-Saharan Africa with the highest standard of quality and service.
             </p>
+            
+            {/* Social Media Links */}
+            <div className="flex space-x-4">
+              <a 
+                href="https://facebook.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+              </a>
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+              </a>
+              <a 
+                href="https://twitter.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                aria-label="Twitter"
+              >
+                <Twitter className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+              </a>
+              <a 
+                href="https://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+              </a>
+              <a 
+                href="https://wa.me/233244470246" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-muted rounded-full hover:bg-primary/10 transition-smooth group"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="h-5 w-5 text-muted-foreground group-hover:text-primary" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -67,7 +116,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2025 powered by thenovus.solutions.
+              © 2025 powered by <a href="http://thenovus.solutions/" target="_blank" rel="noopener noreferrer" className="hover:underline">thenovus.solutions.</a>
             </p>
             <div className="flex space-x-4 mt-2 sm:mt-0">
               <Link to="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary transition-smooth">

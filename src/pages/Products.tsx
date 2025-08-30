@@ -2,11 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { FileText, Image, CreditCard, Megaphone, Shirt, BookOpen } from 'lucide-react';
+import { FileText, Image, CreditCard, Megaphone, Shirt, BookOpen, Gift, Shirt as TShirt } from 'lucide-react';
 import printingProcess from '@/assets/printing-process.jpg';
 
 const Products = () => {
-  const categories = [
+const categories = [
     {
       letter: 'B',
       icon: <FileText className="h-8 w-8 text-primary icon-bounce" />,
@@ -26,22 +26,34 @@ const Products = () => {
       products: ['Promotional Flyers', 'Event Flyers', 'Business Forms', 'Invoice Books', 'Receipt Books', 'Letterheads']
     },
     {
+      letter: 'O',
+      icon: <Megaphone className="h-8 w-8 text-secondary icon-bounce" />,
+      title: 'Outdoor Advertising',
+      products: ['Billboards', 'Street Banners', 'Transit Advertising', 'Building Wraps', 'Trade Show Displays', 'Event Backdrops']
+    },
+    {
       letter: 'P',
       icon: <BookOpen className="h-8 w-8 text-highlight icon-bounce" />,
       title: 'Posters & Publications',
       products: ['Event Posters', 'Marketing Posters', 'Magazines', 'Newsletters', 'Brochures', 'Pamphlets']
     },
     {
+      letter: 'V',
+      icon: <TShirt className="h-8 w-8 text-primary icon-bounce" />,
+      title: 'Souvenirs',
+      products: ['Pens', 'Ceramic mugs', 'Notepads', 'Keyrings', 'Water Bottles', 'others to follow']
+    },
+    {
+      letter: 'T',
+      icon: <Shirt className="h-8 w-8 text-primary icon-bounce" />,
+      title: 'T-Shirt Printing',
+      products: ['DTF', 'DTG', 'Screen printing']
+    },
+    {
       letter: 'S',
       icon: <Shirt className="h-8 w-8 text-primary icon-bounce" />,
       title: 'Stickers & Signage',
       products: ['Custom Stickers', 'Vehicle Decals', 'Shop Signage', 'Directional Signs', 'Safety Signs', 'Window Graphics']
-    },
-    {
-      letter: 'O',
-      icon: <Megaphone className="h-8 w-8 text-secondary icon-bounce" />,
-      title: 'Outdoor Advertising',
-      products: ['Billboards', 'Street Banners', 'Transit Advertising', 'Building Wraps', 'Trade Show Displays', 'Event Backdrops']
     }
   ];
 
@@ -64,24 +76,24 @@ const Products = () => {
   ];
 
   return (
-    <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <div className="relative mb-8">
+        <div className="text-center mb-12 animate-fade-in">
+          <div className="relative mb-6 sm:mb-8">
             <img 
               src={printingProcess} 
               alt="High-quality printing process in action" 
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-elegant hover-scale transition-smooth"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent rounded-2xl" />
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">Our Products & Services</h1>
-              <p className="text-xl text-white/90 max-w-3xl mx-auto mb-4 drop-shadow-md">
+            <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 text-center px-4">
+              <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold text-white mb-2 sm:mb-4 drop-shadow-lg">Services</h1>
+              <p className="text-base sm:text-lg text-white/90 max-w-3xl mx-auto mb-3 sm:mb-4 drop-shadow-md">
                 From business cards to billboards, we offer comprehensive printing solutions 
                 tailored to your needs. Explore our full range of products and services.
               </p>
-              <Button size="lg" asChild className="bg-gradient-accent button-hover">
+              <Button size="lg" asChild className="bg-gradient-accent button-hover w-full sm:w-auto">
                 <Link to="/pricing">Get Custom Quote</Link>
               </Button>
             </div>

@@ -59,7 +59,7 @@ const Index = () => {
                 <Button size="lg" variant="secondary" asChild className="shadow-glow button-hover">
                   <Link to="/pricing">Get Free Quote</Link>
                 </Button>
-                <Button size="lg" variant="outline" asChild className="border-background text-background hover:bg-background hover:text-primary button-hover">
+                <Button size="lg" variant="secondary" asChild className="border-background text-background hover:bg-background hover:text-primary button-hover">
                   <Link to="/products">View Products</Link>
                 </Button>
               </div>
@@ -134,7 +134,7 @@ const Index = () => {
             <Button size="lg" variant="secondary" asChild className="button-hover">
               <Link to="/pricing">Request Quote Now</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary button-hover">
+            <Button size="lg" variant="secondary" asChild className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary button-hover">
               <Link to="/help">Contact Us</Link>
             </Button>
           </div>

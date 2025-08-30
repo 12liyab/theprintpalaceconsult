@@ -24,6 +24,13 @@ const Clients = () => {
       category: "Non-Profit",
       description: "Organization dedicated to empowering individuals with disabilities through various programs.",
       services: ["Awareness Campaigns", "Educational Materials", "Community Outreach Materials"]
+    },
+    {
+      name: "Axes Human Capital",
+      logo: "/lovable-uploads/AXIS.jpg",
+      category: "Human Capital",
+      description: "A leading human capital solutions provider focused on talent development and organizational growth.",
+      services: ["Talent Acquisition", "Training & Development", "HR Consulting"]
     }
   ];
 
@@ -53,14 +60,14 @@ const Clients = () => {
   ];
 
   return (
-    <div className="min-h-screen py-12">
+    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       {/* Hero Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-hero text-background">
+      <section className="py-12 sm:py-16 px-0 sm:px-4 lg:px-8 bg-gradient-hero text-background">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 animate-fade-in">
             Our Valued <span className="gradient-text-light">Clients & Partners</span>
           </h1>
-          <p className="text-xl text-background/90 max-w-3xl mx-auto mb-8 animate-fade-in">
+          <p className="text-base sm:text-xl text-background/90 max-w-3xl mx-auto mb-6 sm:mb-8 animate-fade-in">
             We're proud to work with leading organizations across Ghana, delivering exceptional printing solutions that help them achieve their goals.
           </p>
         </div>

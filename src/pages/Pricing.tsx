@@ -101,11 +101,11 @@ Please provide a detailed quote for this project. Thank you!`;
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent rounded-2xl" />
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center">
-              <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">Pricing & Ordering</h1>
+              {/* <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">Pricing & Ordering</h1>
               <p className="text-xl text-white/90 max-w-3xl mx-auto drop-shadow-md">
                 Get accurate pricing for your print projects. Our transparent pricing ensures 
                 no surprises - just professional results at competitive rates.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
